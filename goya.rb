@@ -5,7 +5,7 @@ cgi.out("type" => "text/html", "charset" => "UTF-8") {
   "<html>
     <body>
       <p>売った相手の情報は下記になります</p>
-      売った相手リスト<br>#{get}
+      売った相手リスト:<br>#{get}
     </body>
   </html>"
 }
